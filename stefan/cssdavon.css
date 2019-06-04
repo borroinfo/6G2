@@ -1,0 +1,44 @@
+
+    #bild{width:200px;}
+    #a{background-color:gainsboro
+    ;text-align:center;}
+    #b{background-color:lightgray
+    ;text-align:center;}
+    #c{background-color:silver
+    ;text-align:center;}
+    #d{background-color:darkgray
+    ;text-align:center;}
+    #e{background-color:gray
+    ;text-align:center;}
+    #f{background-color:dimgray
+    ;text-align:center;}
+    #g{background-color:DarkSlateGray
+    ;color:white;text-align:right;}
+    #liste{text-align:left;}
+   table,th,tr,td{border-style:solid;
+        border-color:black;
+    }
+    #Impressum{text-align:left;
+        
+    }
+    
+    #tabelle{text-align:center;margin:auto;}
+
+    #myBtn {
+				position: fixed;
+				bottom: 10px;
+				right: 10px;
+				float: right;
+				max-width: 100px;
+				width: 100%;
+				font-size: 12px;
+				border-color: rgba(85, 85, 85, 0.2);
+				background-color: rgb(100,100,100);
+				padding: .6px;
+				border-radius: 10px;
+				}
+
+    body{background-color:black;}
+    .head()
+	
+	

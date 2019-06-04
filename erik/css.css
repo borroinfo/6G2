@@ -1,0 +1,70 @@
+			body{
+				background-color: grey;
+			}
+			
+			h3{
+				font-size: 150%;
+			}
+			
+			table, th, td {
+			border: 1px solid black;
+			}
+			
+			table{
+				width: 500px;
+			}
+			
+			.links{
+				padding: 10px;
+				font-size: 130%;
+			}
+			
+			#header{
+				text-align: center;
+			}
+			
+			#heading{
+				font-size:250%;
+				font-weight: bold;
+			}
+			
+			#container{
+				width: 800px;
+				background-color: white;
+				margin: auto;
+				padding: 10px;
+			}
+			
+			#imprint{
+				color: white;
+				background-color: black;
+			}
+			
+			#h-imprint{
+				float: left;
+				margin-left: 10px;
+			}
+			
+			#p-imprint{
+				text-align: right;
+				padding: 10px;
+			}
+			
+			#myBtn {
+				position: fixed;
+				bottom: 10px;
+				right: 10px;
+				float: right;
+				max-width: 100px;
+				width: 100%;
+				font-size: 12px;
+				border-color: rgba(85, 85, 85, 0.2);
+				background-color: rgb(100,100,100);
+				padding: .5px;
+				border-radius: 4px;
+				}
+
+/*On Hover Color Change*/
+			#myBtn:hover {
+				background-color: #7dbbf1;
+				}
