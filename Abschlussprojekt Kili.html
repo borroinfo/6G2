@@ -1,0 +1,132 @@
+<!-- So schaut ein Kommentar aus -->
+
+<!-- Das ist ein HTMl-Grundgerüst. Ein gültiges HTML-Dokument
+muss mindestens diese Tags enthalten -->
+
+<!-- Der Doctype legt die HTML-Version fest - die aktuelle 
+Version ist HTML5-->
+<!doctype html>
+
+<!-- Beginn des Dokumentes + Attribut für Sprache -->
+<html lang="de">
+<head>
+
+<meta charset="utf-8">
+
+<title>TIEFighter</title>
+<style>
+
+	#container{background-color: gray; width: 100%;}
+	#header{background-color: white;margin-left:50px;margin-right:50px;}
+	.zentriert{text-align: center; }
+	#TIEfighter{width: 50%;}
+	#Beschreibung{background-color: white; margin-left: 50px;margin-right: 50px;} 
+	.abstand{padding:10px;}
+	#Funktionen{background-color: white; margin-left:50px;margin-right:50px;}
+	#Preise{background-color:white;margin-left:50px;margin-right:50px;}
+	#Impressum{color:white;background-color:black;margin-left:50px;margin-right:50px;margin-bottom:50px;}
+	#impressum{text-align:right;color:white;}
+	#abstand{margin-left:10px;}
+	table, tr, th, td{border:2px solid black; border-collapse:collapse;}
+	#tabelle{padding:30px;}
+	
+</style>
+</head>
+
+
+<body>
+	<div id="container"> 
+		
+		
+		<div class="zentriert" id="header">
+			<h1 class="abstand">TIE Fighter</h1>
+			<p>Der klassische TIE Fighter ist die beste Verteidigung ihres privaten Todessterns</p>
+			<img id="TIEfighter" src="https://live.staticflickr.com/946/28413822318_c6860a792a_b.jpg">
+			<p class="abstand" class="zentriert">
+				<a class="abstand" href="#Beschreibung">Beschreibung</a>
+				<a class="abstand" href="#Funktion">Funktionen</a>
+				<a class="abstand" href="#Preise">Preise</a>
+			</p>
+			
+		</div>
+		
+		
+		
+		<div id="Beschreibung">
+			<h2 class="abstand">Beschreibung</h2>
+			<p class="abstand">Die klassischen TIE Fighter
+			sind vor allem auf Manövrierfähigkeit und Geschwindigkeit 
+			ausgelegt, weshalb ihnen auch Schutzschilde und schwere Waffen 
+			fehlen. Sie sind ideal um böse Rebellen zu jagen.
+			</p>
+		</div>
+			
+			
+			
+		<div id="Funktionen">
+			<h2 class="abstand">Funktionen</h2>
+				<ul class="abstand" id="abstand">
+				<li>Rebellen vernichten</li>
+				<li>nichts treffen</li>
+				</ul>
+		</div>
+		
+		
+		<div id="Preise">
+			<h2 class="abstand">Preise</h2>
+			
+			<table id="tabelle">
+				<tr>
+				<th>Modell</th>
+				<th>Preis</th>
+				</tr>
+				
+				<tr>
+				<td>TIE-One</td>
+				<td>5000$ </td>
+				</tr>
+				
+				<tr>
+				<td>TIE-1&1 </td>
+				<td>999999999...$</td>
+				</tr>
+				
+				
+				<tr>
+				<td>TIE-Bomber</td>
+				<td>25000$ </td>
+				</tr>
+				
+				
+				<tr>
+				<td>TIE-Fighter</td>
+				<td>2500$</td>
+				</tr>
+				
+			</table>
+					
+			
+			
+			
+			
+		</div>	
+		
+		
+		<div id="Impressum">
+			<h2 class="abstand">Impressum</h2>
+			<p id="impressum" class="abstand">Darth Sidious <br>
+			Chefbüro 7 <br>
+			5217 Todesstern <br>
+			imperator@gmail.com</p>
+        </div>
+
+
+	<br>
+
+
+	</div>
+</body>
+
+
+
+</html>
